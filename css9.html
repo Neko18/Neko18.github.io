@@ -1,0 +1,45 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="w3.css">
+    <title>Document</title>
+</head>
+<body>
+<center>
+<div class="w3-container w3-red w3-animate-zoom">
+<h1 class="w3-panel w3-card-4 w3-round w3-black">FORM INPUT KELAHIRAN</h1>
+<br>
+<form action="hasil.php" method="POST">
+<table>
+<tr><td>No. Akta</td>
+<td><input type="text" name="noAkta" id="noAkta"></td></tr>
+<tr><td>Kota Kelahiran</td>
+<td><input type="text" name="kotaKel" id="kotaKel"></td></tr>
+<tr><td>Tanggal Lahir</td>
+<td><input type="date" name="tglLahir" id="tglLahir"></td></tr>
+<tr><td>Nama Anak</td>
+<td><input type="text" name="namaAnak" id="namaAnak"></td></tr>
+<tr><td>Jenis Kelamin</td>
+<td><input type="radio" name="jk" value="Pria"> Pria 
+    <input type="radio" name="jk" value="Wanita"> Wanita</td></tr>
+<tr><td>Anak Ke</td>
+<td><select name="anakKe" class="w3-select">
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+</select></td></tr>
+<tr><td>Nama Ayah</td>
+<td><input type="text" name="namaAyah" id="namaAyah"></td></tr>
+<tr><td>Nama Ibu</td>
+<td><input type="text" name="namaIbu" id="namaIbu"></td></tr>
+</table>
+<hr>
+<button class="w3-btn w3-round-xxlarge w3-lime">Kirim</button>
+<button class="w3-btn w3-round-xxlarge w3-darkblue" type="reset">Reset</button>
+</form>
+<br>
+</div>
+</body>
+</html>
